@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../public/registerStyle.css">
+<!------ Include the above in your HEAD tag ---------->
+  </head>
+<body id="LoginForm">
+<div class="col-md-4 col-md-offset-4" id="login">
+						<section id="inner-wrapper" class="login">
+							<article>
+								<form action="/register" method="POST">
+									<div class="form-group">
+										<div class="input-group">
+											<span class="input-group-addon"><i class="fa fa-user"> </i></span>
+											<input type="text" na class="form-control" id="name" name="name" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="input-group">
+											<span class="input-group-addon"><i class="fa fa-envelope"> </i></span>
+											<input type="email" class="form-control" id="email" name="email" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="input-group">
+											<span class="input-group-addon"><i class="fa fa-key"> </i></span>
+											<input type="password" class="form-control" id="password" name="password" required>
+										</div>
+									</div>
+									  <button type="submit" class="btn btn-success btn-block">Register</button>
+								</form>
+                                <a href="/login">Login</a>
+							</article>
+						</section></div>

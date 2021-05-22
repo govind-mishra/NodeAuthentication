@@ -1,0 +1,7 @@
+<h1>Hi <%= name %></h1>
+<!-- As in form delete method does not support
+so we use method-override library and pass _method as getter of delete
+in our server.js we have written delete method for logout -->
+<form action="/logout?_method=DELETE" method="POST">
+<button type="submit">Log Out</button>
+</form>
